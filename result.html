@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>QR Code Badge</title>
+        <link rel="stylesheet" href="css/result.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
+        <script type="module" src="scripts/Result.js"></script>
+        <script src=".\node_modules\qrcode-generator\qrcode.js"></script>
+    </head>
+    <body>
+        <div id="root">
+            <div id="container">
+                <h1>Your QR Code badge!</h1>
+
+                <div id="full-name">
+                    <div>
+                        <label for="fname">First Name:</label>
+                        <p id="fname"></p>
+                    </div>
+                    <div>
+                        <label for="lname">last Name:</label>
+                        <p id="lname"></p>
+                    </div>
+                    
+                </div>            
+
+                <div>
+                    <label for="email">Email:</label>
+                        <p id="email"></p>
+                </div>
+                
+                <div>   
+                    <label for="twitter">twitter:</label>
+                    <a id="twitter-a" href="#">
+                        <p id="twitter"></p>
+                    </a>
+                </div>
+                
+                <div>
+                    <label for="github">Github:</label>
+                    <a id="github-a" href="#">
+                        <p id="github"></p>
+                    </a>
+                    
+                </div>
+                
+                <div>
+                    <label for="qrcode">QR Code:</label>
+                    <div id="qrcode"></div>
+                </div>
+                
+                <a href="index.html">
+                    <button>re-create</button>
+                </a>
+            </div>
+        </div>
+
+        <footer>
+            <p>Felipe Coutinho -                       
+                <a href="https://github.com/Felipe-CdS/falemais-test"> Github</a>
+            </p>
+        </footer>
+    </body>
+</html>

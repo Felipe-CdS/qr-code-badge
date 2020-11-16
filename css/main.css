@@ -1,0 +1,156 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    background: rgb(73,159,104);
+    background: linear-gradient(180deg, rgba(73,159,104,1) 0%, rgba(21,122,110,1) 100%); 
+}
+
+:root {
+    font-size: 62.5%;
+    --pine-green: #157a6eff;
+    --shamrock-green: #499f68ff;
+    --dark-sea-green: #77b28cff;
+    --ash-gray: #c2c5bbff;
+    --brown-sugar: #b4654aff;
+
+    --mystic-maroon: #b53171ff;
+    --medium-sea-green: #32b877ff;
+    --sheen-green: #84de31ff;
+    --french-lime: #9df24eff;
+    --medium-sea-green-2: #3dba7eff;
+}
+
+
+body, input, button, textarea {
+    font: 400 1.8rem/1 'Roboto', sans-serif;
+}
+
+#root{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 5rem;
+    margin:auto;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 70rem;
+    width: 30rem;
+
+    padding: 0 1rem;
+
+    background-color: var(--medium-sea-green-2);
+    border: 2px solid black;
+    border-radius: 2rem;
+}
+
+#container h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#container .input-box{
+    position: relative;
+}
+
+#container label {
+    text-align: center;
+    width: 30rem;
+    font-size: 90%;
+}
+
+#container input{
+    height: 3rem;
+    width: 28rem;
+
+    margin-bottom: 15px;
+    
+    padding: 0 15px;
+
+    font-size: 70%;
+
+    background-color: var(--medium-sea-green-2);
+    border: 2px solid black;
+    border-radius: 2rem;
+}
+
+#container .input-box input{
+    padding: 0 28px;
+}
+
+#container .input-box span{
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+}
+
+
+#submit-button {
+    transition: 150ms;
+}
+
+#submit-button:hover {
+    background-color: white;
+}
+
+#submit-button:disabled {
+    background-color: var(--ash-gray);
+}
+
+#container button {
+    height: 3rem;
+    width: 28rem;
+    
+    padding: 0 15px;
+
+    font-size: 70%;
+
+    background-color: var(--medium-sea-green-2);
+    border: 2px solid black;
+    border-radius: 2rem;
+}
+
+#container button:hover {
+    background-color: white;
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    height: 4rem;
+    width: 100%;
+    background-color: #17252A;
+}
+
+footer p {
+    margin-top: 1rem;
+    color: #FEFFFF;
+}
+
+footer a {
+    color: #FEFFFF;
+}
