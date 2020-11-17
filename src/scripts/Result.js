@@ -1,3 +1,6 @@
+import '../css/result.css';
+import qrcode from 'qrcode-generator'
+
 const urlString = window.location.search;
 const urlParams = new URLSearchParams(urlString);
 
@@ -18,7 +21,7 @@ document.getElementById("github").innerHTML = github;
 document.getElementById("github-a").setAttribute("href", ("https://www.github.com/" + (github.replace("@", ""))));
 
 
-var data = "https://jtde-qrcodebadge.netlify.app/result.html?" +        "fname=" + firstName +
+var data = "https://jtte-qrcodebadge.netlify.app/result.html?" +        "fname=" + firstName +
                 "&lname=" + lastName +      "&email=" + email +
                 "&twitter=" + twitter +     "&github=" + github;
 

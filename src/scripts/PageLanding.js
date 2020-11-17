@@ -1,3 +1,5 @@
+import '../css/pageLanding.css';
+
 var entries = {
     firstName: "",
     lastName: "",
