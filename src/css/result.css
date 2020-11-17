@@ -141,7 +141,7 @@ body, input, button, textarea {
 }
 
 #container a button:hover {
-    background-color: var(--ash-gray);
+    background-color: white;
 }
 
 
